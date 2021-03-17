@@ -226,15 +226,6 @@ char* clearString(char string[]){
 	}
 	strcpy(temp, str);
    	strcpy(temp, strRemove(temp, "pros"));
-   
-    
-   /*	size_t len = strlen("pros");
-
-    while ((temp = strstr(temp, "pros")) != NULL) {
-        memmove(temp, temp + len, strlen(temp + len) + 1);
-    }
-    //strcpy(str, temp);*/
-    
     
     return temp;
 }
